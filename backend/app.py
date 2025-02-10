@@ -7,7 +7,7 @@ def read_root():
     """
     Root endpoint that returns a simple JSON greeting.
     """
-    return {"message": "Hello, World!"}
+    return {"message": "Hello, New World!"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: str = None):
